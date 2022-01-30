@@ -1,0 +1,110 @@
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+html {
+  height: 100vh;
+}
+
+body {
+  min-height: 100vh;
+  position: relative;
+}
+
+.navbar-dark .navbar-nav .nav-link:focus, .navbar-dark .navbar-nav .nav-link:hover {
+  color: #FFFFFF !important;
+}
+
+.nav-link,
+.navbar-brand,
+.navbar-nav {
+  color: #FFFFFF !important;
+}
+
+.current {
+  color: #B6B6B6 !important;
+}
+
+h1 {
+  padding-top: 30px;
+  margin-left: 30px;
+  font-size: 50px;
+  color: #FFFFFF;
+}
+
+.home-page {
+  background-image: url("/images/library.jfif");
+  height: 100%;
+  width: 100%;
+  background-size: contain;
+}
+
+.row {
+  display: flex;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  background-color: #FFFFFF;
+  background-size: contain;
+  padding: 10px;
+}
+
+img {
+  height: 150px;
+  width: 100px;
+  object-fit: contain;
+}
+
+.footer {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  background-color: #FFFFFF;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  margin-top: 20px;
+}
+
+.container {
+  justify-content: center;
+  width: 100%;
+}
+
+.profile {
+  height: 400px;
+  width: 266px;
+  display: flex;
+  object-fit: contain;
+}
+
+.profile-image {
+  display: flex;
+  padding-left: auto;
+  padding-right: auto;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  justify-content: center;
+}
+
+.name {
+  text-align: center;
+}
+
+.profile-title {
+  text-align: center;
+}
+
+.welcome {
+  width: 100%;
+  justify-content: center;
+  text-align: center;
+  font-size: 35px;
+}
+
+.guide {
+  font-size: 30px;
+}
